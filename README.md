@@ -1,4 +1,4 @@
-# svm
+# SVM
 * svm.py <br>
 该文件中实现了一个简单的SVM，使用SMO进行优化，在选择优化的变量时采用随机选择的方式。
 * plattSMO.py <br>
@@ -26,4 +26,5 @@ def main():
     test,testlabel = loadImage('testDigits')
     svm.predict(test,testlabel)
 ```
-
+* 注意：<br>
+函数运行前需将3个.tar.gz文件解压到当前目录下。
